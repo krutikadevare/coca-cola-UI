@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coca-Cola Site - Figma Preview</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f40009; /* Coca-Cola red */
+      font-family: Arial, sans-serif;
+    }
+    .figma-container {
+      position: relative;
+      width: 100%;
+      max-width: 1200px;
+      aspect-ratio: 16 / 9;
+    }
+    .figma-container iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 3px solid white;
+      border-radius: 16px;
+      box-shadow: 0 6px 30px rgba(0, 0, 0, 0.25);
+      background: #fff;
+    }
+    .brand-tag {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: white;
+      color: #f40009;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="figma-container">
+    <div class="brand-tag">Coca-Cola</div>
+    <iframe
+      src="https://embed.figma.com/design/kcQ7L0FVCwTunovLmZxti4/Untitled?embed-host=share"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+  </div>
+</body>
+</html>
